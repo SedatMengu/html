@@ -1,0 +1,74 @@
+header etikerleri
+
+header elementleri blok elementlerdir.
+
+h1 h2 h3 h4 h5 h6 olmak üzere 6 tanedir.
+
+h1 en büyük h6 en küçük yazı fontu verir.
+
+HTML <header> elementi, bir web sayfasının veya bölümünün başlık veya üst kısmını tanımlamak için kullanılır. 
+<header> etiketi, sayfanın veya bölümünün başlığını, logo, ana menü, alt başlık gibi bileşenleri içerebilir. 
+İşte <header> etiketi içinde yaygın olarak kullanılan bazı elementler:
+
+1- <h1>-<h6> Başlık Etiketleri: 
+
+Sayfanın veya bölümünün başlığını belirtmek için kullanılır. 
+Genellikle en önemli başlığı <h1> etiketi içinde kullanırız, ardından daha alt seviyelerde <h2>, 
+<h3> gibi başlık etiketleri kullanabiliriz.
+
+<header>
+    <h1>Hoşgeldiniz!</h1>
+    <h2>En Son Haberler</h2>
+</header>
+
+2- <img> Etiketi: 
+
+Sayfanın logosu veya başka bir görsel öğe için kullanılır.
+
+<header>
+    <img src="logo.png" alt="Web Sitesi Logosu">
+</header>
+
+3- <nav> Etiketi: 
+
+Ana menü veya navigasyon öğelerini gruplamak için kullanılır.
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">Hizmetler</a></li>
+            <!-- Diğer menü öğeleri -->
+        </ul>
+    </nav>
+</header>
+
+4- <p> Etiketi: 
+
+İsteğe bağlı olarak, başlık veya alt başlıkla birlikte açıklamalar veya metinler eklemek için kullanılabilir.
+
+<header>
+    <h1>Web Sitesi Başlığı</h1>
+    <p>En son haberleri ve güncellemeleri burada bulabilirsiniz.</p>
+</header>
+
+5- <a> Etiketi:
+
+Başlık veya logoya tıklanabilir bir bağlantı eklemek için kullanılabilir.
+
+<header>
+    <a href="anasayfa.html">
+        <img src="logo.png" alt="Web Sitesi Logosu">
+    </a>
+    <h1><a href="anasayfa.html">Web Sitesi Başlığı</a></h1>
+</header>
+
+6- <center></center> etiketi:
+
+bir yazıyı veya resimi ortalamak için kullanılır.
+
+
+<header> elementi, sayfanın veya bölümünün yapısını ve içeriğini daha anlamlı hale getirmek için kullanılır. 
+Bu element, tarayıcılar ve arama motorları tarafından sayfanın yapısının daha iyi anlaşılmasına yardımcı olabilir.
+

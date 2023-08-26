@@ -1,0 +1,80 @@
+head tagları arasına,
+
+çalışırken arka planda ihtiyaç olacak olan etiketler eklenir.
+mesela css etikeleri
+
+
+## meta etikerleri : kapanış etiketi olmaz.
+
+en polüler meta etiketleri
+
+1- charset: Sayfanın karakter setini belirtir. 
+Web tarayıcılarına sayfanın hangi karakter seti kullanıldığını bildirir.
+
+<meta charset="UTF-8">
+
+2- name ve content: Çeşitli meta bilgileri sağlar, örneğin sayfa açıklaması veya anahtar kelimeleri. 
+name özelliği hangi türde veriyi belirtirken, content özelliği ise ilgili veriyi taşır.
+
+<meta name="description" content="Bu bir örnek web sayfasıdır.">
+<meta name="keywords" content="HTML, meta, etiketleri, örnek">
+
+3- viewport: Mobil cihazlar için sayfa görüntüsünü kontrol etmek için kullanılır.
+ Sayfanın genişliği, yüksekliği ve yakınlaştırma seviyeleri gibi bilgileri belirleyebilirsiniz.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+4- author: Sayfanın yazarını belirtir.
+
+<meta name="author" content="John Doe">
+
+5- robots: Arama motorlarının sayfayı dizine eklemesine veya takip etmesine yönelik talimatlar içerir.
+
+<meta name="robots" content="index, follow">
+
+6- og (Open Graph): Sosyal medya platformlarında paylaşıldığında nasıl görüneceğini belirlemek için kullanılır. 
+Başlık, açıklama, görsel gibi bilgileri içerir.
+
+<meta property="og:title" content="Örnek Sayfa">
+<meta property="og:description" content="Bu bir örnek web sayfasıdır.">
+<meta property="og:image" content="https://example.com/image.jpg">
+
+
+7- twitter: Twitter paylaşımları için benzer şekilde meta verileri belirtir.
+
+<meta name="twitter:title" content="Örnek Sayfa">
+<meta name="twitter:description" content="Bu bir örnek web sayfasıdır.">
+<meta name="twitter:image" content="https://example.com/image.jpg">
+
+
+8- http-equiv: HTTP başlık bilgilerini tanımlamak için kullanılır. 
+Örneğin, otomatik yönlendirmeler veya sayfa yenilemeleri sağlayabilir.
+
+<meta http-equiv="refresh" content="5;URL=https://example.com">
+
+9- keywords : arama yapıldığında arama motoruna yazılan ile eşleşme sağlar.
+bu eşleşme daha çok kullanıcıya erişmeye yardımcı olur , görünürlüğü artırır.
+
+<meta name = "keywords" content="yakalanması istenen içerik">
+
+10 - description : web sayfasına girmeden önizleme olarak içerikleri görüntülemeye yarar.
+
+<meta name="description" content="ön izlenecek içerik" >
+
+## diğer etiketler
+
+<link rel="icon">: Favicon olarak bilinen tarayıcı sekmesinde görünen küçük simgeyi belirtir.
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+## diğer etiketler
+
+<base>: Sayfanın baz URL'ini belirtir. Sayfadaki tüm ilişkili URL'ler bu baz URL'ine göre çözümlenir.
+
+<base href="https://example.com/">
+
+## diğer etiketler
+
+<title>: Sayfanın başlığını belirler. Tarayıcı sekmesinde görünen metni ve arama sonuçlarında başlık olarak görünen metni içerir.
+
+<title>Örnek Sayfa Başlığı</title>

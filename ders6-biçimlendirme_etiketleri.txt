@@ -1,0 +1,43 @@
+biçimlendirme etiketleri:
+
+1- <hr> etiketi :
+
+kullanıldığı satıra boydan boya bir çizgi çeker
+
+2- <br> etiketi :
+
+kullanıldığı satıra bir satırlık boşluk ekler
+
+3- <strong> etiketi :
+
+Bu etiket, metni hem görsel olarak kalın hale getirir hem de içeriğin vurgulandığını veya önemli olduğunu ifade eder. 
+Tarayıcılar bu etiketi kullanarak metni kalın hale getirirken, aynı zamanda içeriğin anlamsal olarak daha vurgulu olduğunu işler.
+
+4- <b> etiketi: 
+
+Bu etiket, metni görsel olarak kalın hale getirir ancak metnin vurgulandığını veya önemli olduğunu ifade etmez. 
+Tarayıcılar metni sadece kalın olarak görüntüler, bu nedenle içeriğin anlamını değiştirmez.
+
+5- <i> etiketi : 
+
+Bu etiket, metni sadece görsel olarak italik hale getirir. 
+İçeriğin anlamını veya vurgusunu değiştirmez. 
+Genellikle yabancı kelimeleri, teknik terimleri veya farklı bir dildeki ifadeleri stilize etmek için kullanılır. 
+Tarayıcılar metni italik olarak gösterir, ancak içeriğin anlamı üzerinde herhangi bir semantik vurgu oluşturmaz.
+
+6- <mark> : 
+
+sarı marker kalem ile çizilmiş yapar.
+
+7- <em> Etiketi: 
+
+Bu etiket, metni hem görsel olarak italik hale getirir hem de içeriğin anlamını veya vurgusunu belirtir. 
+Yani, içeriğin vurgulu veya önemli olduğunu ifade eder. 
+Ekran okuyucular gibi yardımcı teknolojiler, <em> etiketini kullandığınızda metni daha vurgulu bir şekilde okur.
+Bu etiket, metin içeriğinin vurgulanması gereken yerlerde kullanılır.
+
+
+8 - <blockquote> etiketi : 
+
+Bu etiket, alıntı yapılan metni görsel olarak vurgular ve genellikle metin içeriğindeki uzun alıntılar için kullanılır. 
+Tarayıcılar, <blockquote> etiketini blok seviyesinde görüntüler, yani alıntı metni yeni bir paragraftan veya blok alanından ayrı olarak görüntülenir.

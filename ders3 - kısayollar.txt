@@ -1,0 +1,11 @@
+vscode kıayolları : 
+
+
+1- COMMAND + OPTION + OK TUŞU : imceli aşağı veya yukarı büyütmeye yarar.
+2- OPTION + OK TUŞU : satırı aşağı veya yukarı yer değiştirmeye yarar.
+3- COMMAND + D : her bastığımızda aynı yazıları teker tekrer seçmeye yarar.
+4- COMMAND + SHIFT + K : satırı silmeye yarar.
+5- COMMAND + ENTER : üst satırda satır sonunda olmamıza gerek olmadan yeni satır eklemeye yarar.
+6- COMMAND + F : Sayfa içi arama yapar.
+7- FN + OK TUŞU : satır sonuna veya satır başına imceli hareket ettimeye yarar.
+

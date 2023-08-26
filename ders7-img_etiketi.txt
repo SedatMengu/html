@@ -1,0 +1,61 @@
+<img> etiketi : 
+
+resim eklemek için kullanılır.
+
+HTML <img> etiketi, resimleri web sayfalarına eklemek için kullanılır. 
+Bu etiketin kullanabileceğiniz en yaygın kullanılan bazı öznitelikleri (attributes) şunlardır:
+
+1- src (Source): 
+
+Resmin dosya yolunu veya URL'sini belirtir.
+
+<img src="image.jpg">
+
+
+2- alt (Alternate Text): 
+
+Resim yüklenemediğinde veya okuma engelli kullanıcılar için alternatif metni sağlar.
+
+<img src="image.jpg" alt="A beautiful landscape">
+
+
+3- width ve height: 
+
+Resmin genişliğini ve yüksekliğini piksel cinsinden belirtir. 
+Sadece genellikle görüntü boyutunu küçültmek için kullanılırken resmin orijinal boyutuyla görüntülenmesi daha iyi bir uygulamadır.
+
+<img src="image.jpg" alt="A Picture" width="300" height="200" >
+
+
+4- title:
+
+Resmin üzerine geldiğinde görünen ek açıklamayı sağlar.
+
+<img src="image.jpg" alt="A Picture" width="300" height="200" title="Click to enlarge">
+
+
+5- loading: 
+
+Resmin yükleme davranışını kontrol eder. 
+"lazy" değeri, sayfa yüklendiğinde resmin yüklenmeyeceğini, görüntü alanına gelindiğinde yükleneceğini belirtir.
+
+<img src="image.jpg" alt="A Picture" loading="lazy">
+
+
+6- style: 
+
+Resmin stilini (örneğin, kenarlık, döndürme, ölçekleme) özelleştirmek için CSS kodunu içerir.
+
+<img src="image.jpg" alt="A Picture" style="border: 1px solid black;">
+
+
+7- class ve id:
+
+CSS veya JavaScript ile ilişkilendirmek için sınıf ve kimlik tanımlayıcılarıdır.
+
+
+<img src="image.jpg" alt="A Picture" class="image-class" id="picture">
+
+
+Bu attributeler, resim etiketini şekillendirmek, erişilebilirlik sağlamak ve resimleri daha iyi kontrol etmek için kullanılır.
+Ek olarak, resim etiketiyle kullanılabilecek daha fazla öznitelik de bulunmaktadır, ancak yukarıdakiler en yaygın kullanılanlardır.
