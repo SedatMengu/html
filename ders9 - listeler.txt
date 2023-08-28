@@ -1,0 +1,38 @@
+HTML'de listeler, içeriği düzenlemek ve yapılandırmak için kullanılan önemli yapılardan biridir. 
+HTML'de üç farklı liste türü bulunmaktadır: 
+
+1- sırasız liste (<ul>), 
+2- sıralı liste (<ol>) (numaralı)
+3- tanımlı liste (<dl>). 
+
+
+İşte her bir türün kullanımı ve örnekleri:
+
+1- Sırasız Liste (<ul>): Madde işaretleri ile gösterilen liste türüdür.
+
+<ul>
+  <li>Elma</li>
+  <li>Armut</li>
+  <li>Üzüm</li>
+</ul>
+
+2- Sıralı Liste (<ol>): Sayılar veya harfler ile numaralandırılan liste türüdür. type verebiliriz.
+
+<ol>
+  <li>Kahvaltı</li>
+  <li>Öğle yemeği</li>
+  <li>Akşam yemeği</li>
+</ol>
+
+3- Tanımlı Liste (<dl>): Terimlerin ve bu terimlere ait tanımların bulunduğu liste türüdür. Terimler <dt> etiketi ile, tanımlar ise <dd> etiketi ile belirtilir.
+
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+</dl>
+
+Bu örneklerde, her liste türü için kullanılan etiketler ve içerikler gösterilmiştir.
+Listenin her bir maddesi <li> (list item) etiketi ile belirtilirken, 
+tanımlı liste için terimler <dt> (definition term) etiketi ile ve tanımlar <dd> (definition description) etiketi ile belirtilir.

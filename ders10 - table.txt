@@ -1,0 +1,18 @@
+- HTML'de tablolar, verileri düzenlemek ve görsel olarak sıralamak için kullanılan bir yapıdır. Tablo oluşturmak için <table>, <tr>, <th>, ve <td> gibi etiketler kullanılır. İşte temel bir tablo yapısının nasıl oluşturulduğuna dair örnek:
+
+
+<table> etiketi tabloyu başlatır.
+<tr> etiketleri tablo satırlarını belirtir.
+<th> etiketleri tablo başlıklarını (başlık hücreleri) belirtir.
+<td> etiketleri tablo hücrelerini (veri hücreleri) belirtir.
+border özelliği tablo çerçevesinin kalınlığını belirtir.
+Tablo oluştururken dikkat etmeniz gereken bazı noktalar:
+
+<th> etiketleri genellikle tablonun başlık hücreleri olarak kullanılır ve varsayılan olarak metni kalın ve ortalanmış şekilde gösterir.
+<td> etiketleri veri hücrelerini belirtir.
+<tr> etiketleri tablo satırlarını temsil eder.
+Tablo içeriğinin düzgün görüntülenmesi için satır ve sütun sayısı aynı olmalıdır.
+CSS ile tablo stilini ve görünümünü özelleştirebilirsiniz.
+Tablolar, özellikle veri düzenlemek ve tablolar arası ilişkileri göstermek için kullanışlıdır. 
+Ancak, tablolar sadece düzgün bir şekilde yapılandırılmış veriler için kullanılmalıdır. 
+Çoğu durumda, düzenli metin içeriği için CSS ile düzenleme yapmanız daha iyi bir seçenek olabilir.

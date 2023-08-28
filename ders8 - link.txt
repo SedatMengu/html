@@ -1,26 +1,28 @@
-
 "a" etiketi (anchor element), bağlantıları oluşturmak için kullanılır ve bazı sık kullanılan attributeler sayesinde bu bağlantıların davranışını ve görünümünü yönlendirebilirsiniz. 
 
 İşte "a" etiketi için en çok kullanılan attributeler:
 
+
 1- href (Hypertext Reference): 
+
 <a href="https://www.example.com">Örnek Sayfa</a>
 
 Bağlantının hedef URL'sini belirtir. 
 Kullanıcılar bu bağlantıya tıkladığında yönlendirilecekleri sayfanın adresini içerir.
 
+
 2- target: 
+
+<a href="https://www.example.com" target="_blank">Yeni Pencerede Aç</a>
 
 Bağlantının nasıl açılacağını belirtir.
 Bu öznitelik, bağlantının mevcut pencerede mi yoksa yeni bir pencerede/sekmede mi açılacağını kontrol eder.
-
 
 Değerler:
 "_self": Bağlantı mevcut pencerede açılır (varsayılan).
 "_blank": Bağlantı yeni bir pencerede veya sekmede açılır.
 Diğer özel hedef isimleri: Eğer özel bir pencere adı verilirse, bağlantı o pencerede açılır.
 
-<a href="https://www.example.com" target="_blank">Yeni Pencerede Aç</a>
 
 3- rel (Relationship): 
 
@@ -34,8 +36,6 @@ Değerler:
 "noopener": Hedef sayfanın açılmasını sağlayan sayfanın güvenliğini artırır.
 "noreferrer": Hedef sayfanın açılmasını sağlayan sayfanın referanslarını gizler.
 
-
-
 4- title: 
 
 <a href="https://www.example.com" title="Örnek Sayfa">Örnek Bağlantı</a>
@@ -44,3 +44,5 @@ Bağlantının üzerine gelindiğinde görünen metni belirtir. Bu, kullanıcıl
 
 
 Bu attributeler, "a" etiketini daha esnek ve işlevsel hale getirerek, bağlantıların görünümünü ve davranışını kontrol etmenizi sağlar.
+
+not : "Yeni Pencerede Aç" gibi text olarak verebileceğimiz gibi , buraya bi resim yolu da ekleyebilir.
