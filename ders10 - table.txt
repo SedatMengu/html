@@ -16,3 +16,39 @@ CSS ile tablo stilini ve görünümünü özelleştirebilirsiniz.
 Tablolar, özellikle veri düzenlemek ve tablolar arası ilişkileri göstermek için kullanışlıdır. 
 Ancak, tablolar sadece düzgün bir şekilde yapılandırılmış veriler için kullanılmalıdır. 
 Çoğu durumda, düzenli metin içeriği için CSS ile düzenleme yapmanız daha iyi bir seçenek olabilir.
+
+rowspan - colspan kavramları,
+
+rowspan - satırları birleştirmek için kullanılır
+colspan - columnları birleştirmek için kullanılır.
+
+en çok kullanılan attribute ler 
+
+1- aling : td ile yazdığımız text leri hizalamaya yarar.
+2- valign : td ile yazdığımız text leri dikey olarak hizalamaya yarar.
+3- cellspacing : hücreler arasındaki boşlukları berlirlemeye yarar.
+4- cellpadding: hücre yazısı ile border çizgizi arasındaki boşlukları belirlemeye yarar.
+
+<table border="1" >
+    <tr>
+        <th colspan="3">STOKLAR</th>
+    </tr>
+    <tr align="center">
+        <td>Sıra No</td>
+        <td>Stok Adı</td>
+        <td>Stok Adeti</td>
+    </tr>
+    <tr align="center">
+        <td>1</td>
+        <td>Kalem</td>
+        <td rowspan="3">50</td>
+    </tr>
+    <tr align="center">
+        <td>2</td>
+        <td>Kitap</td>
+    </tr>
+    <tr align="center">
+        <td summary="özet bilgi">3</td>
+        <td>Silgi</td>
+    </tr>
+   </table>
