@@ -1,0 +1,179 @@
+
+HTML <form> etiketi, kullanıcıların bilgi girmesine ve bu bilgileri sunucuya göndermesine 
+olanak tanıyan form elementlerini gruplamak için kullanılır.
+Formlar, kullanıcı girişi almak, iletişim formları oluşturmak, arama kutuları ve daha fazlasını yapmak için kullanılır.
+
+Form içinde kullanabileceğiniz bazı yaygın form elemanları:
+
+1- <form> etiketi attributeleri : 
+
+a- action:
+
+Form verilerinin gönderileceği URL'yi belirtir.
+Bu, verilerin nasıl işleneceğini gösterir.
+
+<form action="sunucu.php">
+  <!-- Form içeriği -->
+</form>
+
+
+b- method: 
+
+Form verilerinin iletilme yöntemini belirtir. 
+"GET" veya "POST" olarak belirtilebilir.
+
+<form action="sunucu.php" method="POST">
+  <!-- Form içeriği -->
+</form>
+
+
+not : 
+
+GET:
+
+"GET" yöntemi, verileri URL parametreleri olarak sunucuya ileten bir yöntemdir.
+URL üzerinde veri iletimi yapar, bu nedenle gönderilen veriler tarayıcı adres çubuğunda görünür.
+Kısa veri gönderimleri veya veri okunabilirliği gerektiren durumlar için kullanışlıdır.
+Örneğin, bir arama sorgusu sunucuya "query string" olarak iletilir: http://example.com/search?q=aranan+kelime.
+
+POST:
+
+"POST" yöntemi, verileri HTTP isteğinin gövdesinde (body) ileten bir yöntemdir.
+URL üzerinde veri görünmez, bu nedenle daha gizli ve güvenli bir iletim sağlar.
+Uzun veya hassas veri gönderimleri gerektiğinde tercih edilir.
+Form verileri, isteğin gövdesine eklenir ve sunucu tarafından işlenir.
+Örneğin, bir kullanıcı kaydı oluşturulurken kullanıcı adı ve şifre gibi hassas bilgiler "POST" yöntemi ile iletilir.
+
+
+c- target: 
+
+Form verilerinin hedef pencere veya çerçeveye nerede açılacağını belirtir.
+
+<form action="sunucu.php" target="_blank">
+  <!-- Form içeriği -->
+</form>
+
+
+d- name: 
+
+Formun adını belirtir. 
+Form elemanlarına erişim sağlamak için kullanılabilir.
+
+<form action="sunucu.php" name="iletisimFormu">
+  <!-- Form içeriği -->
+</form>
+
+e- autocomplete: 
+
+Formun otomatik tamamlama özelliğini kontrol eder.
+"on" veya "off" değerlerini alabilir.
+
+<form action="sunucu.php" autocomplete="on">
+  <!-- Form içeriği -->
+</form>
+
+
+f- enctype: 
+
+Form verilerinin sunucuya iletilme şeklini belirtir.
+Özellikle dosya yükleme işlemleri için kullanılır.
+
+<form action="sunucu.php" method="POST" enctype="multipart/form-data">
+  <!-- Form içeriği -->
+</form>
+
+g- novalidate: 
+
+Tarayıcının formu doğrulamamasını sağlar.
+JavaScript ile özel doğrulama yapılması gerektiğinde kullanışlı olabilir.
+
+<form action="sunucu.php" novalidate>
+  <!-- Form içeriği -->
+</form>
+
+
+ı- onsubmit: 
+
+Form gönderildiğinde tetiklenecek JavaScript işlevini belirtir.
+
+
+<form action="sunucu.php" onsubmit="return validateForm()">
+  <!-- Form içeriği -->
+</form>
+
+
+<input>: Kullanıcıdan metin, sayı veya diğer verileri almak için kullanılır. 
+Örneğin, <input type="text"> bir metin girişi sağlar.
+
+input tipleri ;
+
+1- text: text: Kullanıcıdan metin girişi almak için kullanılır. 
+Genellikle isim, soyisim gibi metin verileri almak için kullanılır.
+
+<input type="text" name="ad" placeholder="Adınızı girin">
+
+
+2- password: Kullanıcıdan gizli metin girişi (şifre gibi) almak için kullanılır. 
+Kullanıcı girdileri genellikle yıldızlı veya noktalı olarak görünür.
+
+<input type="password" name="sifre" placeholder="Şifrenizi girin">
+
+
+3- email: Kullanıcıdan geçerli bir e-posta adresi girmesini istemek için kullanılır.
+
+<input type="email" name="eposta" placeholder="E-posta adresinizi girin">
+
+
+4- checkbox: Kullanıcının birden fazla seçeneği işaretlemesine izin vermek için kullanılır. 
+Checkbox'lar bağımsız olarak işaretlenebilir.
+
+<input type="checkbox" name="tercih[]" value="kitap"> Kitap
+<input type="checkbox" name="tercih[]" value="film"> Film
+<input type="checkbox" name="tercih[]" value="muzik"> Müzik
+
+
+5- radio : Kullanıcının bir seçeneği seçmesine izin verir. 
+Farklı gruplardaki radio düğmeleri birbirini dışlamaz.
+
+<input type="radio" name="cinsiyet" value="erkek"> Erkek
+<input type="radio" name="cinsiyet" value="kadin"> Kadın
+
+
+6- file: Kullanıcının dosya yüklemesi için kullanılır. 
+Sunucuya dosya gönderimi gerektiğinde kullanılır.
+
+<input type="file" name="dosya">
+
+
+7- reset: Formun içeriğini sıfırlamak için kullanılır. 
+Tıklanan takdirde formdaki tüm girdiler temizlenir.
+
+<input type="reset" value="Formu Temizle">
+
+
+8- submit: Formu göndermek için kullanılır. 
+Kullanıcı bu düğmeye tıkladığında form verileri sunucuya gönderilir.
+
+<input type="submit" value="Gönder">
+
+
+<textarea>: Çok satırlı metin girişi almak için kullanılır.
+
+<select>: Bir seçenek listesi oluşturmak için kullanılır.
+
+1- <option>   : etiketleri ile seçenekleri belirleyebilirsiniz.
+2- <size>     : etiketi aynı anda kaç seçenek görüneceğini belirleyebiliriz.
+3- <multiple> : Birden fazla seçeneğin seçilmesine izin vermek için kullanılır. 
+4- <disabled> : Seçeneğin kullanıcı tarafından seçilemez hale getirilmesi için kullanılır.
+<select name="renk">
+    <option value="kirmizi">Kırmızı</option>
+    <option value="mavi">Mavi</option>
+    <option value="turuncu" disabled>Mavi (Seçilemez)</option>
+    <option value="yesil">Yeşil</option>
+</select>
+
+<button>: Formun gönderilmesini veya başka bir eylemi tetiklemek için kullanılır.
+<label>: Bir form elemanının açıklamasını belirtmek için kullanılır.
+<radio> ve <checkbox>: Seçeneklerden birden fazlasını seçmek için kullanılır.
+
+not: radio da aynı anda birden fazla seçenek seçilmesini engelleyebilmek için radio lara aynı name i vermemiz gerekir.

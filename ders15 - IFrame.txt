@@ -1,0 +1,18 @@
+<iframe>, HTML içinde dışarıdan bir kaynağın (örneğin başka bir web sayfası veya video) içe gömülmesini sağlayan bir elementtir. 
+"Inline Frame" (gömülü çerçeve) kısaltması olan <iframe>, başka bir web sayfasının bir bölümünü veya içeriğini mevcut sayfanın içine yerleştirmek için kullanılır. 
+Özellikle farklı domainlere ait içerikleri göstermek veya gömülü medya içeriği sunmak amacıyla kullanılır.
+
+<iframe> etiketinin temel yapısı şu şekildedir:
+
+<iframe src="kaynak_url"></iframe>
+
+
+<iframe> etiketi ile kullanabileceğiniz bazı yaygın özellikler şunlar olabilir:
+
+width: Gömülü alanın genişliğini piksel veya yüzde olarak belirtir.
+height: Gömülü alanın yüksekliğini piksel veya yüzde olarak belirtir.
+frameborder: Çerçeve kenarlarının görünürlüğünü belirler (0 veya 1 değeri alabilir).
+scrolling: Gömülü alanın kaydırılabilir olup olmadığını belirtir (auto, yes, no).
+sandbox: Gömülü alanın güvenlik kısıtlamalarını belirlemek için kullanılır.
+allowfullscreen: Eğer varsa, içerikteki medya veya görsel içeriklerin tam ekran moduna geçmesine izin verir.
+name: Gömülü alanın ismini belirtir. Genellikle JavaScript ile hedeflemek için kullanılır.

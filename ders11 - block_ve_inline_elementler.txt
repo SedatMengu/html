@@ -1,0 +1,18 @@
+Örnek blok düzenli elementler:
+
+<div>
+<p>
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+<ul>, <ol>, <li>
+<table>
+<form>
+
+
+Örnek satır içi elementler:
+
+<span>
+<a>
+<strong>, <em>
+<img>
+<br>
+<input>

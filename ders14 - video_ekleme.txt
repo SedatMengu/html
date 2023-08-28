@@ -1,0 +1,91 @@
+HTML <video> etiketi, web sayfalarında sesli veya sesli-görüntülü medya içeriği göstermek için kullanılır. Video etiketi ile birlikte kullanılan özellikler ve içerikler, kullanıcıların video içeriğini oynatmasını kontrol etmenizi sağlar.
+
+1- src: 
+
+Video dosyasının URL'sini belirtir.
+
+<video src="video.mp4">
+
+
+2- controls:
+
+Kontrolleri (play, pause, ses, zaman çizelgesi) görüntülemek için kullanılır.
+
+<video src="video.mp4" controls>
+
+
+3- width:
+
+Video çerçevesinin genişliğini piksel cinsinden belirtir.
+
+<video src="video.mp4" width="640">
+
+
+4- height:
+Video çerçevesinin yüksekliğini piksel cinsinden belirtir.
+
+<video src="video.mp4" height="360">
+
+
+5- autoplay:
+Video sayfa yüklendiğinde otomatik olarak oynatılır.
+
+<video src="video.mp4" autoplay>
+
+
+6- loop:
+
+Video oynandığında sona geldiğinde tekrar başa döner.
+
+<video src="video.mp4" loop>
+
+
+7- muted:
+
+Video sesini varsayılan olarak kapatır.
+
+<video src="video.mp4" muted>
+
+
+8- poster: Video oynatıcı yüklenirken görünen resim veya açıklamayı belirtir.
+
+<video src="video.mp4" poster="kapan.jpg">
+
+
+9- preload:
+
+Sayfa yüklenirken video verisini ön yükleme davranışını belirtir.
+
+<video src="video.mp4" preload="auto">
+
+
+10 - controlslist:
+
+Kullanıcı arabiriminde hangi kontrollerin gösterileceğini belirtir.
+
+<video src="video.mp4" controlslist="nodownload">
+
+
+11- playsinline:
+
+Mobil cihazlarda videoyu içerik alanında oynatır.
+
+<video src="video.mp4" playsinline>
+
+
+12- controls:
+Video oynatma kontrollerini görüntüler.
+
+<video src="video.mp4" controls>
+
+13- crossorigin:
+
+Video dosyasının köken güvenliği davranışını belirtir.
+
+<video src="video.mp4" crossorigin="anonymous">
+
+
+Bu özellikler, <video> etiketini şekillendirmek ve video içeriğini kontrol etmek için kullanılabilir. 
+Videonun tarayıcı ve oynatıcıya göre nasıl görüntülendiği değişebilir, 
+bu nedenle özelliklerin tarayıcı uyumluluğunu göz önünde bulundurmak önemlidir.
+

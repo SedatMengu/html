@@ -1,0 +1,7 @@
+<div> etiketi, HTML içinde blok düzenli bir yapı oluşturmak için kullanılan bir elementdir. 
+<div> elementi, içeriğini gruplamak, düzenlemek ve stil uygulamak amacıyla kullanılır. 
+Özellikle CSS ile birlikte kullanıldığında sayfanın stilini düzenlemek ve özelleştirmek için güçlü bir araçtır.
+
+<div> etiketi, içerisine metin, resimler, diğer HTML elementleri ve hatta başka <div> elementleri gibi her türlü içeriği alabilir. 
+Genellikle bu elementi sayfa bölümlerini veya gruplamalarını tanımlamak için kullanırız.
+
